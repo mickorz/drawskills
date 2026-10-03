@@ -173,3 +173,7 @@ flowchart TD
     classDef primary fill:#E3F2FD,stroke:#1976D2,stroke-width:2px,color:#0D47A1
     classDef secondary fill:#F5F5F5,stroke:#BDBDBD,stroke-width:2px,color:#424242
 ```
+
+## 如何新增配色方案
+
+在 `colors.md` 的"如何新增配色方案"一节查看完整步骤。本文件的格式：追加一个方案块，包含 `themeVariables` YAML 代码块 + `classDef` 样式块，方案名与 `colors.md` 保持一致。可用的 themeVariables 键参考现有方案（primaryColor / primaryBorderColor / lineColor 等）。

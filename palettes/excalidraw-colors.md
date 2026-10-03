@@ -92,3 +92,7 @@ Excalidraw 通过元素的 `strokeColor` 和 `backgroundColor` 属性设置颜�
 | `solid`  | 实线   |
 | `dashed` | 虚线   |
 | `dotted` | 点线   |
+
+## 如何新增配色方案
+
+在 `colors.md` 的"如何新增配色方案"一节查看完整步骤。本文件的格式：追加一个方案块，表头为 `| 角色 | backgroundColor | strokeColor | 文字 fontColor |`，行名与 `colors.md` 一致，方案名保持相同。注意 Excalidraw 色板有限，取色时尽量用其预设 15 色的近似值。
